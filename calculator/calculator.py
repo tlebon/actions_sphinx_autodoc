@@ -25,3 +25,26 @@ class Calculator:
         :return: The difference between a and b.
         """
         return a - b
+
+    def multiply(self, a: float, b: float) -> float:
+        """
+        Multiplies two numbers.
+
+        :param a: The first number.
+        :param b: The second number.
+        :return: The product of a and b.
+        """
+        return a * b
+
+    def divide(self, a: float, b: float) -> float:
+        """
+        Divides the first number by the second.
+
+        :param a: The first number (dividend).
+        :param b: The second number (divisor).
+        :raises ValueError: If b is zero.
+        :return: The quotient of a and b.
+        """
+        if b == 0:
+            raise ValueError("Cannot divide by zero.")
+        return a / b

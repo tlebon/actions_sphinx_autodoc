@@ -5,13 +5,11 @@
 
 calculator documentation
 ========================
-.. automodule:: calculator.calculator
-   :members:
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-* :ref:`getindex`
+* :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
